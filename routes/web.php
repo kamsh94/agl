@@ -16,4 +16,5 @@ $router->get('/', function () use ($router) {
 });
 $router->group(['prefix'=>'api'],function ($router){
    $router->get('auth','AuthController@getAuthCode');
+   $router->get('update','AuthController@updates');
 });

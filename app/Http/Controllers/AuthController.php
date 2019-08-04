@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-class ExampleController extends Controller
+use Illuminate\Http\Request;
+
+class AuthController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -14,8 +16,22 @@ class ExampleController extends Controller
         //
     }
 
-    public function getAuthCode()
+    public function getAuthCode(Request $request)
     {
-        return 'auth-for-device';
+        if (!$request->has('mac')){
+            return TextResponse('not mac address');
+//            return response('')->header('Content-Type', 'text/plain');
+        }
+        $token = 'auth:for:device:'.md5($request->mac);
+        return TextResponse($token);
+    }
+
+    public function updates(Request $request)
+    {
+        if (!$request->has('auth_code')){
+            return TextResponse('auth_code is required');
+        }
+        $str = rand(0,1).','.rand(0,1).','.rand(0,1).','.rand(0,1).','.rand(0,100).'%';
+        return TextResponse($str);
     }
 }
