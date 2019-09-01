@@ -18,3 +18,6 @@ $router->group(['prefix'=>'api'],function ($router){
    $router->get('auth','AuthController@getAuthCode');
    $router->get('update','AuthController@updates');
 });
+
+$router->get('home','HomeController@index');
+$router->post('dump/save','HomeController@saveDump');
