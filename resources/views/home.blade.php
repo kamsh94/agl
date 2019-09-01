@@ -111,15 +111,9 @@
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="75">
+                <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="60">
                 <label class="form-check-label" for="exampleRadios1">
                     75
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 100) checked  @endif type="radio" name="speed" value="100">
-                <label class="form-check-label" for="exampleRadios1">
-                    100
                 </label>
             </div>
         </div>
