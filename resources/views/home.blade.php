@@ -51,41 +51,7 @@
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Speed</h5>
-            <div class="form-check">
-                <input class="form-check-input"  @if(Cache::get('speed') == 0) checked  @endif  type="radio" name="speed" value="0">
-                <label class="form-check-label" for="exampleRadios1">
-                    0
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 25) checked  @endif type="radio" name="speed" value="25">
-                <label class="form-check-label" for="exampleRadios1">
-                    25
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 50) checked  @endif type="radio" name="speed" value="50">
-                <label class="form-check-label" for="exampleRadios1">
-                    50
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="75">
-                <label class="form-check-label" for="exampleRadios1">
-                    75
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 100) checked  @endif type="radio" name="speed" value="100">
-                <label class="form-check-label" for="exampleRadios1">
-                    100
-                </label>
-            </div>
-        </div>
-    </div>
+
 
 
     <div class="card" style="width: 18rem;">
@@ -119,6 +85,41 @@
                 <input class="form-check-input" @if(Cache::get('pump2') == 'off') checked  @endif type="radio" name="pump2" value="off">
                 <label class="form-check-label">
                     Off
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Speed</h5>
+            <div class="form-check">
+                <input class="form-check-input"  @if(Cache::get('speed') == 0) checked  @endif  type="radio" name="speed" value="0">
+                <label class="form-check-label" for="exampleRadios1">
+                    0
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" @if(Cache::get('speed') == 25) checked  @endif type="radio" name="speed" value="25">
+                <label class="form-check-label" for="exampleRadios1">
+                    25
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" @if(Cache::get('speed') == 50) checked  @endif type="radio" name="speed" value="50">
+                <label class="form-check-label" for="exampleRadios1">
+                    50
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="75">
+                <label class="form-check-label" for="exampleRadios1">
+                    75
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" @if(Cache::get('speed') == 100) checked  @endif type="radio" name="speed" value="100">
+                <label class="form-check-label" for="exampleRadios1">
+                    100
                 </label>
             </div>
         </div>
