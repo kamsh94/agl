@@ -25,7 +25,7 @@
                 </label>
             </div>
             <div class="form-check">
-                <input @if(Cache::get('power') == 'off') checked  @endif  class="form-check-input" type="radio" name="power" value="Off">
+                <input @if(Cache::get('power') == 'off') checked  @endif  class="form-check-input" type="radio" name="power" value="off">
                 <label class="form-check-label">
                     Off
                 </label>
@@ -55,31 +55,31 @@
         <div class="card-body">
             <h5 class="card-title">Speed</h5>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="speed" value="0">
+                <input class="form-check-input"  @if(Cache::get('speed') == 0) checked  @endif  type="radio" name="speed" value="0">
                 <label class="form-check-label" for="exampleRadios1">
                     0
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="speed" value="25">
+                <input class="form-check-input" @if(Cache::get('speed') == 25) checked  @endif type="radio" name="speed" value="25">
                 <label class="form-check-label" for="exampleRadios1">
                     25
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="speed" value="50">
+                <input class="form-check-input" @if(Cache::get('speed') == 50) checked  @endif type="radio" name="speed" value="50">
                 <label class="form-check-label" for="exampleRadios1">
                     50
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="speed" value="75">
+                <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="75">
                 <label class="form-check-label" for="exampleRadios1">
                     75
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="speed" value="100">
+                <input class="form-check-input" @if(Cache::get('speed') == 100) checked  @endif type="radio" name="speed" value="100">
                 <label class="form-check-label" for="exampleRadios1">
                     100
                 </label>
@@ -92,15 +92,15 @@
         <div class="card-body">
             <h5 class="card-title">Pump 1:</h5>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="pump1" value="on">
+                <input class="form-check-input" @if(Cache::get('pump1') == 'on') checked  @endif type="radio" name="pump1" value="on">
                 <label class="form-check-label" for="exampleRadios1">
-                    on
+                    On
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="pump1" value="Off">
+                <input class="form-check-input" @if(Cache::get('pump1') == 'off') checked  @endif type="radio" name="pump1" value="off">
                 <label class="form-check-label">
-                    off
+                    Off
                 </label>
             </div>
         </div>
@@ -110,15 +110,15 @@
         <div class="card-body">
             <h5 class="card-title">Pump 2:</h5>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="pump2" value="on">
+                <input class="form-check-input"  @if(Cache::get('pump2') == 'on') checked  @endif type="radio" name="pump2" value="on">
                 <label class="form-check-label" for="exampleRadios1">
-                    on
+                    On
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="pump2" value="Off">
+                <input class="form-check-input" @if(Cache::get('pump2') == 'off') checked  @endif type="radio" name="pump2" value="off">
                 <label class="form-check-label">
-                    off
+                    Off
                 </label>
             </div>
         </div>

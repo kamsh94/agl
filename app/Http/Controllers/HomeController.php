@@ -25,11 +25,11 @@ class HomeController extends Controller
     public function saveDump(Request $request)
     {
         foreach ($request->all() as $k => $v) {
-            echo $k .' : '.$v."<br/>";
-            Cache::put($k, $v);
+            echo $k . ' : ' . $v . "<br/>";
+            Cache::forever($k, $v);
         }
         echo "<h1>Saved</h1>";
-        echo "<a href=".url('/home')." class='btn'>Back</a>";
+        echo "<h2><a href=" . url('/home') . " class='btn'>Back</a></h2>";
     }
 
 
