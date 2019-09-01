@@ -113,7 +113,7 @@
             <div class="form-check">
                 <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="60">
                 <label class="form-check-label" for="exampleRadios1">
-                    75
+                    60
                 </label>
             </div>
         </div>
