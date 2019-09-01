@@ -36,7 +36,7 @@ class AuthController extends Controller
         $direction = Cache::get('direction') == 'forward' ? 1 : 2;
         $pump1 = Cache::get('pump1') == 'on' ? 1 : 0;;
         $pump2 = Cache::get('pump2') == 'on' ? 1 : 0;;
-        $speed = Cache::get('speed') . "%";
+        $speed = Cache::get('speed') ;
 
         $str = $power . ',' . $direction . ',' . $pump1 . ',' . $pump2 .',' .  $speed ;
         return TextResponse($str);
