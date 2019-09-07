@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Home</title>
 </head>
 <body>
+<div class="container">
+
 <form method="post" action="{{url('/dump/save')}}">
 
     <div class="card" style="width: 18rem;">
@@ -19,13 +21,13 @@
             <h5 class="card-title">Power</h5>
             <div class="form-check">
 
-                <input @if(Cache::get('power') == 'on') checked  @endif class="form-check-input" type="radio" name="power" value="on">
+                <input required @if(Cache::get('power') == 'on') checked  @endif class="form-check-input" type="radio" name="power" value="on">
                 <label class="form-check-label" for="exampleRadios1">
                     On
                 </label>
             </div>
             <div class="form-check">
-                <input @if(Cache::get('power') == 'off') checked  @endif  class="form-check-input" type="radio" name="power" value="off">
+                <input required @if(Cache::get('power') == 'off') checked  @endif  class="form-check-input" type="radio" name="power" value="off">
                 <label class="form-check-label">
                     Off
                 </label>
@@ -37,13 +39,13 @@
         <div class="card-body">
             <h5 class="card-title">Direction</h5>
             <div class="form-check">
-                <input class="form-check-input" type="radio" @if(Cache::get('direction') == 'forward') checked  @endif  name="direction" value="forward">
+                <input required class="form-check-input" type="radio" @if(Cache::get('direction') == 'forward') checked  @endif  name="direction" value="forward">
                 <label class="form-check-label" for="exampleRadios1">
                     Forward
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('direction') == 'reverse') checked  @endif type="radio" name="direction" value="reverse">
+                <input required class="form-check-input" @if(Cache::get('direction') == 'reverse') checked  @endif type="radio" name="direction" value="reverse">
                 <label class="form-check-label">
                     Reverse
                 </label>
@@ -58,13 +60,13 @@
         <div class="card-body">
             <h5 class="card-title">Pump 1:</h5>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('pump1') == 'on') checked  @endif type="radio" name="pump1" value="on">
+                <input  required class="form-check-input" @if(Cache::get('pump1') == 'on') checked  @endif type="radio" name="pump1" value="on">
                 <label class="form-check-label" for="exampleRadios1">
                     On
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('pump1') == 'off') checked  @endif type="radio" name="pump1" value="off">
+                <input required class="form-check-input" @if(Cache::get('pump1') == 'off') checked  @endif type="radio" name="pump1" value="off">
                 <label class="form-check-label">
                     Off
                 </label>
@@ -76,13 +78,13 @@
         <div class="card-body">
             <h5 class="card-title">Pump 2:</h5>
             <div class="form-check">
-                <input class="form-check-input"  @if(Cache::get('pump2') == 'on') checked  @endif type="radio" name="pump2" value="on">
+                <input required class="form-check-input"  @if(Cache::get('pump2') == 'on') checked  @endif type="radio" name="pump2" value="on">
                 <label class="form-check-label" for="exampleRadios1">
                     On
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('pump2') == 'off') checked  @endif type="radio" name="pump2" value="off">
+                <input required class="form-check-input" @if(Cache::get('pump2') == 'off') checked  @endif type="radio" name="pump2" value="off">
                 <label class="form-check-label">
                     Off
                 </label>
@@ -93,25 +95,25 @@
         <div class="card-body">
             <h5 class="card-title">Speed</h5>
             <div class="form-check">
-                <input class="form-check-input"  @if(Cache::get('speed') == 0) checked  @endif  type="radio" name="speed" value="0">
+                <input required class="form-check-input"  @if(Cache::get('speed') == 0) checked  @endif  type="radio" name="speed" value="0">
                 <label class="form-check-label" for="exampleRadios1">
                     0
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 25) checked  @endif type="radio" name="speed" value="25">
+                <input required class="form-check-input" @if(Cache::get('speed') == 25) checked  @endif type="radio" name="speed" value="25">
                 <label class="form-check-label" for="exampleRadios1">
                     25
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 50) checked  @endif type="radio" name="speed" value="50">
+                <input required class="form-check-input" @if(Cache::get('speed') == 50) checked  @endif type="radio" name="speed" value="50">
                 <label class="form-check-label" for="exampleRadios1">
                     50
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" @if(Cache::get('speed') == 75) checked  @endif type="radio" name="speed" value="60">
+                <input required class="form-check-input" @if(Cache::get('speed') == 60) checked  @endif type="radio" name="speed" value="60">
                 <label class="form-check-label" for="exampleRadios1">
                     60
                 </label>
@@ -123,6 +125,7 @@
 
 
 </form>
+</div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -134,5 +137,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+<script>
+    $('#flash-overlay-modal').modal();
+</script>
 </body>
 </html>

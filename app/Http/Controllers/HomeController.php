@@ -24,12 +24,22 @@ class HomeController extends Controller
 
     public function saveDump(Request $request)
     {
+        $this->validate($request, [
+            'power' => 'required',
+            'direction' => 'required',
+            'pump1' => 'required',
+            'pump2' => 'required',
+            'speed' => 'required',
+        ]);
+        if ($request->has('direction') and $request->direction != Cache::get('direction')) {
+            Cache::put('direction_changed',1,6);
+        }
         foreach ($request->all() as $k => $v) {
             echo $k . ' : ' . $v . "<br/>";
             Cache::forever($k, $v);
         }
         echo "<h1>Saved</h1>";
-        echo "<h2><a href=" . url('/home') . " class='btn'>Back</a></h2>";
+        echo "<h2><a href=" . url('/home/') . " class='btn'>Back</a></h2>";
     }
 
 
