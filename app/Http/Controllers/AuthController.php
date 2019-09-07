@@ -34,7 +34,7 @@ class AuthController extends Controller
         }
 
         if (Cache::has('direction_changed') && Cache::get('direction_changed')) {
-            $power = 0;
+            $power = 1;
             $direction = 0;
             $pump1 = 0;
             $pump2 = 0;
