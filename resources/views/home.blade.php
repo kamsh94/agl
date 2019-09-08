@@ -139,33 +139,10 @@
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Speed</h5>
-                    <div class="form-check">
-                        <input required class="form-check-input" @if(Cache::get('speed') == 0) checked
-                               @endif  type="radio" name="speed" value="0">
-                        <label class="form-check-label" for="exampleRadios1">
-                            0
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input required class="form-check-input" @if(Cache::get('speed') == 25) checked
-                               @endif type="radio" name="speed" value="25">
-                        <label class="form-check-label" for="exampleRadios1">
-                            25
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input required class="form-check-input" @if(Cache::get('speed') == 50) checked
-                               @endif type="radio" name="speed" value="50">
-                        <label class="form-check-label" for="exampleRadios1">
-                            50
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input required class="form-check-input" @if(Cache::get('speed') == 60) checked
-                               @endif type="radio" name="speed" value="60">
-                        <label class="form-check-label" for="exampleRadios1">
-                            60
-                        </label>
+
+                    <div class="form-group">
+                        <label for="formControlRange">Example Range input</label>
+                        <input type="range" name="speed" max="60" min="0" class="form-control-range" id="formControlRange">
                     </div>
                 </div>
             </div>
