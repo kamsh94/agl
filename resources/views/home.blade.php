@@ -63,8 +63,8 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="/public/assets/vendors/general/select2/dist/css/select2.css" rel="stylesheet" type="text/css" />
     <link href="/public/assets/vendors/general/ion-rangeslider/css/ion.rangeSlider.css" rel="stylesheet" type="text/css" />
     <link href="/public/assets/vendors/general/nouislider/distribute/nouislider.css" rel="stylesheet" type="text/css" />
-    <link href="/public/assets/vendors/general/owl.carousel/dist/public/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
-    <link href="/public/assets/vendors/general/owl.carousel/dist/public/assets/owl.theme.default.css" rel="stylesheet" type="text/css" />
+    <link href="/public/assets/vendors/general/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="/public/assets/vendors/general/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet" type="text/css" />
     <link href="/public/assets/vendors/general/dropzone/dist/dropzone.css" rel="stylesheet" type="text/css" />
     <link href="/public/assets/vendors/general/summernote/dist/summernote.css" rel="stylesheet" type="text/css" />
     <link href="/public/assets/vendors/general/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet" type="text/css" />
