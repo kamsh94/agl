@@ -24,6 +24,7 @@ class AuthController extends Controller
 //            return response('')->header('Content-Type', 'text/plain');
         }
         $token = 'auth:for:device:' . md5($request->mac);
+
         return TextResponse($token);
     }
 
