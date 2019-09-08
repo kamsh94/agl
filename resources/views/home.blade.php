@@ -802,7 +802,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
                             <div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile ">
                                 <ul class="kt-menu__nav ">
-                                    <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-text">Dashboard</span></a>
+                                    <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" aria-haspopup="true"><a href="{{url('dashboard')}}" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-text">Dashboard</span></a>
                                     </li>
                                     <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-text">Devices</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                         <div class="kt-menu__submenu kt-menu__submenu--classic kt-menu__submenu--left">
@@ -852,7 +852,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     Control </h3>
                                 <span class="kt-subheader__separator kt-hidden"></span>
                                 <div class="kt-subheader__breadcrumbs">
-                                    <a href="#" class="kt-subheader__breadcrumbs-home"><i class="flaticon2-shelter"></i></a>
+                                    <a href="{{url('dashboard')}}" class="kt-subheader__breadcrumbs-home"><i class="flaticon2-shelter"></i></a>
                                     <span class="kt-subheader__breadcrumbs-separator"></span>
                                     <a href="" class="kt-subheader__breadcrumbs-link">
                                         Pivot N42 </a>
@@ -871,7 +871,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                             <!--Begin::Section-->
                             <div class="row">
-                                <div class="col-xl-4">
+                                <div class="col-xl-12">
 
                                     <!--begin:: Widgets/Activity-->
                                     <div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
