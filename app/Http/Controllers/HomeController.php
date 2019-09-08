@@ -39,7 +39,6 @@ class HomeController extends Controller
             Cache::forever($k, $v);
         }
        return redirect('home');
-        echo "<h2><a href=" . url('/home/') . " class='btn'>Back</a></h2>";
     }
     public function dashboard(){
         return view('dashboard');
