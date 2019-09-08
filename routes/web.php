@@ -20,4 +20,5 @@ $router->group(['prefix'=>'api'],function ($router){
 });
 
 $router->get('home','HomeController@index');
+$router->get('dashboard','HomeController@dashboard');
 $router->post('dump/save','HomeController@saveDump');
