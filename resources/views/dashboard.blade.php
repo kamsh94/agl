@@ -105,7 +105,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- begin:: Header Mobile -->
 <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
     <div class="kt-header-mobile__brand">
-        <a class="kt-header-mobile__logo" href="demo5/index.html">
+        <a class="kt-header-mobile__logo" href="{{url('dashboard')}}">
             <img alt="Logo" src="/public/assets/media/logos/logo-5-sm.png" />
         </a>
         <div class="kt-header-mobile__nav">
@@ -168,7 +168,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!-- begin:: Brand -->
                         <div class="kt-header__brand   kt-grid__item" id="kt_header_brand">
                             <div class="kt-header__brand-logo">
-                                <a href="demo5/index.html">
+                                <a href="{{url('dashboard')}}">
                                     <img alt="Logo" src="/public/assets/media/logos/logo-5.png" />
                                 </a>
                             </div>
@@ -779,8 +779,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </a>
                                         <div class="kt-notification__custom kt-space-between">
-                                            <a href="demo5/custom/user/login-v2.html" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign Out</a>
-                                            <a href="demo5/custom/user/login-v2.html" target="_blank" class="btn btn-clean btn-sm btn-bold">Upgrade Plan</a>
+                                            <a href="{{url('dashboard')}}" target="_blank" class="btn btn-label btn-label-brand btn-sm btn-bold">Sign Out</a>
+                                            <a href="{{url('dashboard')}}" target="_blank" class="btn btn-clean btn-sm btn-bold">Upgrade Plan</a>
                                         </div>
                                     </div>
 
@@ -2011,7 +2011,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="kt-demo-panel__item-preview">
                 <img src="/public/assets/media/demos/preview/demo5.jpg" alt="" />
                 <div class="kt-demo-panel__item-preview-overlay">
-                    <a href="demo5/index.html" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
+                    <a href="{{url('dashboard')}}" class="btn btn-brand btn-elevate " target="_blank">Preview</a>
                 </div>
             </div>
         </div>
