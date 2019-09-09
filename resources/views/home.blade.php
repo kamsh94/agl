@@ -886,7 +886,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             <div class="kt-widget17">
                                                 <div class="kt-widget19__pic kt-portlet-fit--top kt-portlet-fit--sides" style="min-height: 300px; background-image: url(/public/assets/media//products/product2.jpg); background-size: cover; background-position: center;">
                                                 </div>
-                                                <div class="kt-widget17__stats">
+                                                <div class="kt-widget17__stats row">
                                                     <div class="kt-widget17__items col-md-6 col-sm-12">
                                                         <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
@@ -952,7 +952,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </div>
                                                     </div>
 
-                                                    <div class="kt-widget17__items mt-3 text-body">
+                                                    <div class="kt-widget17__items col-12 mt-3 text-body">
                                                         <div class="kt-widget17__item col-12">
                                                             <h1 class="text-body mb-5">Control</h1>
                                                             <!--begin::Form-->
