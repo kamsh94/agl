@@ -968,7 +968,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                                     <span></span>
                                                                                 </label>
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--brand">
-                                                                                    <input required @if(Cache::get('power') == 'off') checked @endif  class="form-check-input off"
+                                                                                    <input required @if(Cache::get('power') == 'off') checked @endif  class="form-check-input"
                                                                                            type="radio" name="power" value="off"> OFF
                                                                                     <span></span>
                                                                                 </label>
@@ -978,13 +978,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <label>Direction:</label>
                                                                             <div class="kt-radio-inline">
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--brand">
-                                                                                    <input required class="form-check-input csoff" type="radio"
+                                                                                    <input required class="form-check-input " type="radio"
                                                                                            @if(Cache::get('direction') == 'forward') checked @endif  name="direction"
                                                                                            value="forward"> Forward
                                                                                     <span></span>
                                                                                 </label>
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--brand">
-                                                                                    <input required class="form-check-input csoff" @if(Cache::get('direction') == 'reverse') checked
+                                                                                    <input required class="form-check-input " @if(Cache::get('direction') == 'reverse') checked
                                                                                            @endif type="radio" name="direction" value="reverse"> Reverse
                                                                                     <span></span>
                                                                                 </label>
@@ -996,12 +996,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <label>Booster Valve:</label>
                                                                             <div class="kt-radio-inline">
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--success">
-                                                                                    <input required class="form-check-input csoff" @if(Cache::get('pump1') == 'on') checked
+                                                                                    <input required class="form-check-input " @if(Cache::get('pump1') == 'on') checked
                                                                                            @endif type="radio" name="pump1" value="on"> ON
                                                                                     <span></span>
                                                                                 </label>
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--brand">
-                                                                                    <input required class="form-check-input csoff" @if(Cache::get('pump1') == 'off') checked
+                                                                                    <input required class="form-check-input " @if(Cache::get('pump1') == 'off') checked
                                                                                            @endif type="radio" name="pump1" value="off"> OFF
                                                                                     <span></span>
                                                                                 </label>
@@ -1011,12 +1011,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <label>Booster Pump:</label>
                                                                             <div class="kt-radio-inline">
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--success">
-                                                                                    <input required class="form-check-input csoff" @if(Cache::get('pump2') == 'on') checked
+                                                                                    <input required class="form-check-input " @if(Cache::get('pump2') == 'on') checked
                                                                                            @endif type="radio" name="pump2" value="on"> ON
                                                                                     <span></span>
                                                                                 </label>
                                                                                 <label class="kt-radio kt-radio--solid kt-radio--brand">
-                                                                                    <input required class="form-check-input csoff" @if(Cache::get('pump2') == 'off') checked
+                                                                                    <input required class="form-check-input " @if(Cache::get('pump2') == 'off') checked
                                                                                            @endif type="radio" name="pump2" value="off"> OFF
                                                                                     <span></span>
                                                                                 </label>
