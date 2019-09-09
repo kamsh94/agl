@@ -888,7 +888,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                                 <div class="kt-widget17__stats">
                                                     <div class="kt-widget17__items">
-                                                        <div class="kt-widget17__item col-sm-4 col-md-2">
+                                                        <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-power-off text-info"></i></span>
                                                             <span class="kt-widget17__subtitle">
@@ -898,7 +898,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		{{Cache::get('power')}}
 																	</span>
                                                         </div>
-                                                        <div class="kt-widget17__item col-sm-4 col-md-2">
+                                                        <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-arrows-alt-h text-info"></i></span>
                                                             <span class="kt-widget17__subtitle">
@@ -908,7 +908,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		{{Cache::get('direction')}}
 																	</span>
                                                         </div>
-                                                        <div class="kt-widget17__item col-sm-4 col-md-2">
+                                                        <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-tint text-info"></i></span>
                                                             <span class="kt-widget17__subtitle">
@@ -918,7 +918,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		{{Cache::get('pump1')}}
 																	</span>
                                                         </div>
-                                                        <div class="kt-widget17__item col-sm-4 col-md-2">
+                                                        <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-th text-info"></i></span>
                                                             <span class="kt-widget17__subtitle">
@@ -928,7 +928,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		{{Cache::get('pump2')}}
 																	</span>
                                                         </div>
-                                                        <div class="kt-widget17__item col-sm-4 col-md-2">
+                                                        <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-clock text-info"></i></span></span>
                                                             <span class="kt-widget17__subtitle">
@@ -938,7 +938,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		{{Cache::get('speed')}}
 																	</span>
                                                         </div>
-                                                        <div class="kt-widget17__item col-sm-4 col-md-2">
+                                                        <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-play text-info"></i></span></span>
                                                             <span class="kt-widget17__subtitle">
