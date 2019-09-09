@@ -934,7 +934,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-clock text-info"></i></span></span>
                                                             <span class="kt-widget17__subtitle">
-																		{{Cache::get('speed')}} %
+																		{{Cache::get('speed')}}
 																	</span>
                                                             <span class="kt-widget17__desc">
 																		Speed
