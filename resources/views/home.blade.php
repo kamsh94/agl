@@ -2053,19 +2053,6 @@ License: You must have a valid license purchased only from themeforest(the above
     $('#flash-overlay-modal').modal();
 </script>
 
-<script>
-    $(document).ready(function(){
-
-        $('.off').click(function(){
-            $('.csoff').attr('disabled', '');
-        });
-
-        $('.on').click(function(){
-            $('.csoff').removeAttr('disabled');
-        });
-    });
-</script>
-
 <!--end::Page Scripts -->
 </body>
 
