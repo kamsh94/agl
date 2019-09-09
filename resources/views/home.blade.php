@@ -1026,8 +1026,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             <label>Speed:</label>
                                                                             <div class="kt-radio-inline">
                                                                                 <label class="kt-radio kt-radio--solid">
-                                                                                    <input type="range" class="custom-range" min="0" max="5" id="customRange2">
-                                                                                    <input type="range" name="speed" max="60" min="0" class="form-control-range" id="formControlRange">
+{{--                                                                                    <input type="range" class="custom-range" min="0" max="5" id="customRange2">--}}
+                                                                                    <input type="range" name="speed" max="60" min="0" class="custom-range" id="customRange2">
+{{--                                                                                <input type="range" name="speed" max="60" min="0" class="form-control-range" id="formControlRange">--}}
+
                                                                                     <span></span>
                                                                                 </label>
                                                                             </div>
