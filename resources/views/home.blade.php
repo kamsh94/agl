@@ -887,7 +887,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div class="kt-widget19__pic kt-portlet-fit--top kt-portlet-fit--sides" style="min-height: 300px; background-image: url(/public/assets/media//products/product2.jpg); background-size: cover; background-position: center;">
                                                 </div>
                                                 <div class="kt-widget17__stats">
-                                                    <div class="kt-widget17__items">
+                                                    <div class="kt-widget17__items col-md-6 col-sm-12">
                                                         <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-power-off text-info"></i></span>
@@ -918,6 +918,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																		{{Cache::get('pump1')}}
 																	</span>
                                                         </div>
+                                                    </div>
+                                                    <div class="kt-widget17__items col-md-6 col-sm-12">
                                                         <div class="kt-widget17__item col-sm-4">
 																	<span class="kt-widget17__icon">
 																		<i class="fa fa-th text-info"></i></span>
