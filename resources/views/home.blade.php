@@ -105,7 +105,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- begin:: Header Mobile -->
 <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
     <div class="kt-header-mobile__brand">
-        <a class="kt-header-mobile__logo" href="">
+        <a class="kt-header-mobile__logo" href="{{url('dashboard')}}">
             <img alt="Logo" src="/public/assets/media/logos/logo-5-sm.png" />
         </a>
         <div class="kt-header-mobile__nav">
