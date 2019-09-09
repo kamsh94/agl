@@ -960,12 +960,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6">
                                                                             <label>Power:</label>
                                                                             <div class="kt-radio-inline">
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--success">
                                                                                     <input required @if(Cache::get('power') == 'on') checked @endif class="form-check-input on"
                                                                                            type="radio" name="power" value="on"> ON
                                                                                     <span></span>
                                                                                 </label>
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--brand">
                                                                                     <input required @if(Cache::get('power') == 'off') checked @endif  class="form-check-input off"
                                                                                            type="radio" name="power" value="off"> OFF
                                                                                     <span></span>
@@ -975,13 +975,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6">
                                                                             <label>Direction:</label>
                                                                             <div class="kt-radio-inline">
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--brand">
                                                                                     <input required class="form-check-input csoff" type="radio"
                                                                                            @if(Cache::get('direction') == 'forward') checked @endif  name="direction"
                                                                                            value="forward"> Forward
                                                                                     <span></span>
                                                                                 </label>
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--brand">
                                                                                     <input required class="form-check-input csoff" @if(Cache::get('direction') == 'reverse') checked
                                                                                            @endif type="radio" name="direction" value="reverse"> Reverse
                                                                                     <span></span>
@@ -993,12 +993,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6">
                                                                             <label>Booster Valve:</label>
                                                                             <div class="kt-radio-inline">
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--success">
                                                                                     <input required class="form-check-input csoff" @if(Cache::get('pump1') == 'on') checked
                                                                                            @endif type="radio" name="pump1" value="on"> ON
                                                                                     <span></span>
                                                                                 </label>
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--brand">
                                                                                     <input required class="form-check-input csoff" @if(Cache::get('pump1') == 'off') checked
                                                                                            @endif type="radio" name="pump1" value="off"> OFF
                                                                                     <span></span>
@@ -1008,12 +1008,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-6">
                                                                             <label>Booster Pump:</label>
                                                                             <div class="kt-radio-inline">
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--success">
                                                                                     <input required class="form-check-input csoff" @if(Cache::get('pump2') == 'on') checked
                                                                                            @endif type="radio" name="pump2" value="on"> ON
                                                                                     <span></span>
                                                                                 </label>
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--brand">
                                                                                     <input required class="form-check-input csoff" @if(Cache::get('pump2') == 'off') checked
                                                                                            @endif type="radio" name="pump2" value="off"> OFF
                                                                                     <span></span>
@@ -1025,7 +1025,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                         <div class="col-lg-12">
                                                                             <label>Speed:</label>
                                                                             <div class="kt-radio-inline">
-                                                                                <label class="kt-radio kt-radio--solid">
+                                                                                <label class="kt-radio kt-radio--solid kt-radio--brand">
 {{--                                                                                    <input type="range" class="custom-range" min="0" max="5" id="customRange2">--}}
                                                                                     <input type="range" name="speed" max="60" min="0" class="custom-range" id="customRange2">
 {{--                                                                                <input type="range" name="speed" max="60" min="0" class="form-control-range" id="formControlRange">--}}
